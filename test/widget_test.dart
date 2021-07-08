@@ -7,11 +7,14 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:news_api_statenotifer_sample/apis/news_api_client.dart';
 
 import 'package:news_api_statenotifer_sample/main.dart';
 
 void main() {
+
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
+
     // Build our app and trigger a frame.
     await tester.pumpWidget(MyApp());
 
